@@ -14,7 +14,8 @@
   + 학번: 21800266
   + Github ID: doohpark 
   + 맡은 역할: 
-     * product.h, product.c, manager.h, manager.c, main.c 함수 설계 및 수정하기 
+     * product.h, product.c, manager.h, manager.c, main.c 함수 설계 및 수정하기
+     * Makefile 수정하기
      * .gitignore 생성하기
      * README.md 작성하기
      * github 관리  
@@ -27,4 +28,4 @@
       * Makefile 작성하기
       * README.md 작성하기
       * github 관리
-      * 코드 수정하기
+      * 함수 수정하기
