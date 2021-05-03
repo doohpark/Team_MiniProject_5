@@ -12,7 +12,7 @@
       * product.h, product.c, manager.h, manager.c, main.c 함수 설계하기 
       * .gitignore 생성하기
       * README.md 작성하기
-***
+
   2.박예지
     + 맡은 역할:
       + Wiki 작성하기
