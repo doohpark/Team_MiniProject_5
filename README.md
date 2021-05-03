@@ -8,12 +8,12 @@
 ## 3.팀 소개
   안녕하세요 저희는 오픈소스소프트웨어 실습 2분반 듣고 있는 팀 5번 18학번 박두현, 박예지입니다.
   1. 박두현 
-    맡은 역할: 
+    * 맡은 역할: 
       * product.h, product.c, manager.h, manager.c, main.c 함수 설계하기 
       * .gitignore 생성하기
       * README.md 작성하기
 
   2. 박예지
-     맡은 역할:
+     * 맡은 역할:
       * Wiki 작성하기
       * Makefile 작성하기
