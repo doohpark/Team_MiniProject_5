@@ -1,7 +1,6 @@
 # Team_MiniProject_5
 ## 1.주제
   옷 가게의 상품 관리 프로그램이다.
---------  
 
 ## 2.기능
   * **CRUD**: 옷의 정보(종류, 색깔, 가격, 별점, 메이커, )를 관리하는 기능 (Create, Read, Update, Delete)
