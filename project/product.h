@@ -1,4 +1,4 @@
-#indef CLOTHES
+#ifndef CLOTHES
 #define CLOTHES
 
 typedef struct{
