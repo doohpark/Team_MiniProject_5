@@ -5,7 +5,7 @@ typedef struct{
     int star; // 별점
     char size; // 사이즈
     char maker[20]; // 메이커(회사)
-} ;
+} Clothes;
 
 int addClothes(Product *p); //옷을 추가하는 함수
 void readClothes(Product p); //옷의 목록을 출력하는 함수
