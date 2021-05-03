@@ -9,3 +9,4 @@ void searchType(Clothes *p, int count); // 옷종류 검색
 void searchPrice(Clothes *p, int count); // 옷가격 검색 
 void searchStar(Clothes *p, int count);// 별점 검색
 void searchColor(Clothes *p, int count); // 옷 색깔 검색
+void searchMaker(Clothes *p, int count); // 옷 메이커 
