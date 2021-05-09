@@ -46,8 +46,8 @@ int loadData(Clothes *c){
         fscanf(fp, "%s", c[i].color);
         fscanf(fp, "%d", &c[i].price);
         fscanf(fp, "%d", &c[i].star);
-        fscanf(fp, "%d", c[i].size);
-        fscanf(fp, "%d", c[i].maker);
+        fscanf(fp, "%s", c[i].size);
+        fscanf(fp, "%s", c[i].maker);
     }
     printf("=> 로딩 성공!\n");
 }
@@ -59,7 +59,8 @@ void searchType(Clothes *c, int count){
     char search[100];
     printf("검색할 옷 종류는? ");
     scanf("%s", search);
-    printf("===============================\n");
+    printf("\nNo Type Size Price Color Star Maker");
+    printf("======================================\n");
     for(int i=0; i<count; i++){
         if(c[i].price == -1) continue;
         if(strstr(c[i].type, search)){
@@ -76,7 +77,8 @@ void searchPrice(Clothes *c, int count){
     int search;
     printf("검색할 옷 가격은? ");
     scanf(" %d", &search);
-    printf("===============================\n");
+    printf("\nNo Type Size Price Color Star Maker");
+    printf("======================================\n");
     for(int i=0; i<count; i++){
         if(c[i].price == -1) continue;
         if(c[i].price == search){
@@ -92,7 +94,8 @@ void searchStar(Clothes *c, int count){
      int search;
     printf("검색할 별점은? ");
     scanf(" %d", &search);
-    printf("===============================\n");
+    printf("\nNo Type Size Price Color Star Maker");
+    printf("======================================\n");
     for(int i=0; i<count; i++){
         if(c[i].price == -1) continue;
         if(c[i].star == search){
@@ -107,7 +110,8 @@ void searchColor(Clothes *c, int count){
      char search[100];
     printf("검색할 옷 색상은? ");
     scanf(" %s", search);
-    printf("===============================\n");
+    printf("\nNo Type Size Price Color Star Maker");
+    printf("======================================\n");
     for(int i=0; i<count; i++){
         if(c[i].price == -1) continue;
         if(strstr(c[i].color, search)){
@@ -122,7 +126,8 @@ void searchMaker(Clothes *c, int count){
      char search[100];
     printf("검색할 옷 메이커는? ");
     scanf(" %s", search);
-    printf("===============================\n");
+    printf("\nNo Type Size Price Color Star Maker");
+    printf("======================================\n");
     for(int i=0; i<count; i++){
         if(c[i].price == -1) continue;
         if(strstr(c[i].maker, search)){
