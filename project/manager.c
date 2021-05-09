@@ -46,8 +46,8 @@ int loadData(Clothes *c){
         fscanf(fp, "%s", c[i].color);
         fscanf(fp, "%d", &c[i].price);
         fscanf(fp, "%d", &c[i].star);
-        fscanf(fp, "%d", c[i].size);
-        fscanf(fp, "%d", c[i].maker);
+        fscanf(fp, "%s", c[i].size);
+        fscanf(fp, "%s", c[i].maker);
     }
     printf("=> 로딩 성공!\n");
 }
