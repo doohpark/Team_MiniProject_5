@@ -4,7 +4,7 @@
 #include "manager.h"
 
 int listClothes(Clothes *c, int count){
-    printf("\nNo Type Color Price Star Size Maker");
+    printf("\nNo Type Size Price Color Star Maker");
     printf("\n**************************************\n");
     for(int i=0; i<count; i++){
         if(c[i].price == -1 ) continue;
@@ -59,7 +59,7 @@ void searchType(Clothes *c, int count){
     char search[100];
     printf("검색할 옷 종류는? ");
     scanf("%s", search);
-    printf("\nNo Type Size Price Color Star Maker");
+    printf("\nNo Type Size Price Color Star Maker\n");
     printf("======================================\n");
     for(int i=0; i<count; i++){
         if(c[i].price == -1) continue;
@@ -77,7 +77,7 @@ void searchPrice(Clothes *c, int count){
     int search;
     printf("검색할 옷 가격은? ");
     scanf(" %d", &search);
-    printf("\nNo Type Size Price Color Star Maker");
+    printf("\nNo Type Size Price Color Star Maker\n");
     printf("======================================\n");
     for(int i=0; i<count; i++){
         if(c[i].price == -1) continue;
@@ -94,7 +94,7 @@ void searchStar(Clothes *c, int count){
      int search;
     printf("검색할 별점은? ");
     scanf(" %d", &search);
-    printf("\nNo Type Size Price Color Star Maker");
+    printf("\nNo Type Size Price Color Star Maker\n");
     printf("======================================\n");
     for(int i=0; i<count; i++){
         if(c[i].price == -1) continue;
@@ -110,7 +110,7 @@ void searchColor(Clothes *c, int count){
      char search[100];
     printf("검색할 옷 색상은? ");
     scanf(" %s", search);
-    printf("\nNo Type Size Price Color Star Maker");
+    printf("\nNo Type Size Price Color Star Maker\n");
     printf("======================================\n");
     for(int i=0; i<count; i++){
         if(c[i].price == -1) continue;
@@ -126,7 +126,7 @@ void searchMaker(Clothes *c, int count){
      char search[100];
     printf("검색할 옷 메이커는? ");
     scanf(" %s", search);
-    printf("\nNo Type Size Price Color Star Maker");
+    printf("\nNo Type Size Price Color Star Maker\n");
     printf("======================================\n");
     for(int i=0; i<count; i++){
         if(c[i].price == -1) continue;
