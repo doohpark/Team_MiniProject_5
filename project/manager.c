@@ -145,7 +145,7 @@ int selectMenu(){
     printf("3. 수정\n");
     printf("4. 삭제\n");
     printf("5. 파일저장\n");
-    printf("6. 검색: (이름,가격,별점,색상,메이커)\n");
+    printf("6. 검색: (종류,가격,별점,색상,메이커)\n");
     printf("=> 원하는 메뉴는? ");
     scanf("%d", &menu);
     printf("***************\n");
