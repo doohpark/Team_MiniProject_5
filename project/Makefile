@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -W -Wall
-TARGET = main
-DTARGET = main_debug
+TARGET = Clothes
+DTARGET = Clothes_debug
 OBJECTS = main.c product.o manager.o
 all : $(TARGET)
 $(TARGET) : $(OBJECTS)
@@ -9,4 +9,4 @@ $(TARGET) : $(OBJECTS)
 $(DTARGET) : $(OBJECTS)
 	$(CC) $(CFLAGS) -DDEBUG -o $@ $^
 clean:
-	rm *.o *.exe
+	rm *.o Clothes

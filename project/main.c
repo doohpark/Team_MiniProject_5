@@ -54,7 +54,7 @@ int main(void) {
  }
     else if(menu == 6){
         int choice;
-        printf("검색: 1.이름 2.가격 3.별점 4.색상 5.메이커\n 선택: ");
+        printf("검색: 1.종류 2.가격 3.별점 4.색상 5.메이커\n 선택: ");
         scanf("%d",&choice);
 
         if(choice == 0){
@@ -78,7 +78,7 @@ int main(void) {
         }
         }
  }
-    printf("종료됨 ^>^");
+    printf("\n ^>^ 종료됨 ^>^\n");
     
     return 0;
 }

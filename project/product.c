@@ -37,12 +37,12 @@ int updateClothes(Clothes *c){
     scanf("%d", &c->star);
     printf("메이커는?");
     scanf("%s", c->maker);
-    printf("수정성공!\n");
+    printf("=> 수정성공!\n");
     return 1;
 }
 int deleteClothes(Clothes *c){
      c->price =-1;
      c->star =-1;
-     printf("=>삭제됨!");
+     printf("=> 삭제됨!\n");
     return 1;
 }
