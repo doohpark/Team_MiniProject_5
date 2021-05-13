@@ -36,7 +36,7 @@ int loadData(Clothes *c){
     fp=fopen("clothes.txt","rt");
     if(fp==NULL){
       fp=fopen("clothes.txt","w");
-      printf("-> 파일없음");
+      printf("-> 없음");
     }
     else {
       fp = fopen("clothes.txt", "rt");
@@ -139,7 +139,7 @@ void searchMaker(Clothes *c, int count){
 }
 int selectMenu(){
     int menu;
-    printf("\n*** 즐거운 쇼핑 ***\n");
+    printf("\n***** 즐거운 쇼핑 *****\n");
     printf("1. 조회\n");
     printf("2. 추가\n");
     printf("3. 수정\n");
@@ -148,6 +148,6 @@ int selectMenu(){
     printf("6. 검색: (종류,가격,별점,색상,메이커)\n");
     printf("=> 원하는 메뉴는? ");
     scanf("%d", &menu);
-    printf("***************\n");
+    printf("*********************\n");
 return menu;
 }
