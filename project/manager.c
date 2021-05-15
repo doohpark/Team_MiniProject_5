@@ -36,7 +36,7 @@ int loadData(Clothes *c){
     fp=fopen("clothes.txt","rt");
     if(fp==NULL){
       fp=fopen("clothes.txt","w");
-      printf("-> 없음");
+      printf("=> 없음");
     }
     else {
       fp = fopen("clothes.txt", "rt");
@@ -70,7 +70,7 @@ void searchType(Clothes *c, int count){
         }
     }
     if(scnt == 0) 
-        printf(" => 검색된 데이터 없음!\n");
+        printf("=> 검색된 데이터 없음!\n");
 }
 void searchPrice(Clothes *c, int count){
     int scnt = 0;
