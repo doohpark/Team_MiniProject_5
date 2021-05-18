@@ -28,7 +28,7 @@ void saveData(Clothes *c, int count){
         fprintf(fp, "%s %s %d %s %d %s\n",c[i].type, c[i].size, c[i].price, c[i].color, c[i].star, c[i].maker);
 }
     fclose(fp);
-    printf("=> 저장됨! ");
+    printf("=> 저장됨!\n ");
 }
 int loadData(Clothes *c){
     int i=0;
@@ -36,7 +36,7 @@ int loadData(Clothes *c){
     fp=fopen("clothes.txt","rt");
     if(fp==NULL){
       fp=fopen("clothes.txt","w");
-      printf("-> 파일없음");
+      printf("-> 파일 없음\n");
     }
     else {
       fp = fopen("clothes.txt", "rt");
