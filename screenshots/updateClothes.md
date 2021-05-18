@@ -1,1 +1,2 @@
-![image](https://user-images.githubusercontent.com/82192969/118387769-415fab00-b65b-11eb-8cb4-bd30ef953395.png)
+<img width="282" alt="updateClothes" src="https://user-images.githubusercontent.com/82192935/118671362-5cd0de80-b832-11eb-89d8-38dd6b410a6e.PNG">
+
