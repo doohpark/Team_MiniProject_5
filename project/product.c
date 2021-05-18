@@ -10,11 +10,11 @@ int addClothes(Clothes *c){
     scanf("%s", c->size);
     printf("가격은? ");
     scanf("%d", &c->price);
-    printf("색상은?");
+    printf("색상은? ");
     scanf("%s", c->color);
     printf("별점은? ");
     scanf("%d", &c->star);
-    printf("메이커는?");
+    printf("메이커는 ?");
     scanf("%s", c->maker);
 
     printf("=> 추가됨!\n");
@@ -31,11 +31,11 @@ int updateClothes(Clothes *c){
     scanf("%s", c->size);
     printf("가격은? ");
     scanf("%d", &c->price);
-    printf("색상은?");
+    printf("색상은? ");
     scanf("%s", c->color);
     printf("별점은? ");
     scanf("%d", &c->star);
-    printf("메이커는?");
+    printf("메이커는? ");
     scanf("%s", c->maker);
     printf("=> 수정성공!\n");
     return 1;
