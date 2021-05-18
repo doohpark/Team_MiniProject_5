@@ -1,1 +1,1 @@
-![image](https://user-images.githubusercontent.com/82192969/118387812-884da080-b65b-11eb-8edb-83931302c7c0.png)
+<img alt="deleteClothes" src="https://user-images.githubusercontent.com/82192935/118671833-c355fc80-b832-11eb-9272-587ab82b8a1e.PNG">
